@@ -22,6 +22,7 @@ let textareaDescription = document.body.querySelector("#description");
 let ul = document.body.querySelector("#list");
 let submitFormButton = form.querySelector("#submit-form-button");
 
+        
 if (taskList.length > 0 ) {
     taskList.forEach((item, index) => {
         // Creation des nouveaux éléments du DOM pour la nouvelle tâche //
